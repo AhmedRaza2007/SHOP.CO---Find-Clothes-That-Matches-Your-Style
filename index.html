@@ -13,14 +13,14 @@
 </head>
 
 <body class="bg-white">
-    <header class="border-b border-gray-200 py-4">
+  <header class="border-b border-gray-200 py-4">
         <div class="container mx-auto px-4">
-            <div class="grid lg:grid-cols-12 grid-cols-4 items-center">
-                <div class="col-span-2">
+            <div class="grid lg:grid-cols-12 md:grid-cols-4 grid-cols-2  items-center">
+                <div class="lg:col-span-2">
                     <img src="./img/logo.svg" alt="logo">
                 </div>
 
-                <nav class="hidden md:flex space-x-6 col-span-4">
+                <nav class="hidden md:flex space-x-7 col-span-4 text-base font-regular">
                     <a href="#" class="text-black hover:text-gray-600">Shop</a>
                     <a href="#" class="text-black hover:text-gray-600">On Sale</a>
                     <a href="#" class="text-black hover:text-gray-600">New Arrivals</a>
@@ -37,7 +37,7 @@
                         class="bg-transparent border-none focus:outline-none ml-2 w-full">
                 </div>
 
-                <div class="flex items-center space-x-4 col-span-1">
+                <div class="flex items-center  justify-end space-x-4 lg:col-span-1">
                     <a href="#" class="text-black hover:text-gray-600">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
                             stroke="currentColor">
@@ -65,40 +65,32 @@
     </header>
 
     <section class="bg-black text-white py-12 bg-cover bg-center"
-        style="background-image: url('YOUR_IMAGE_PATH_HERE');">
-        <div class="bg-black bg-opacity-50">
-            <div class="container mx-auto px-4">
+        style="background-image: url('./img/header-bg.svg'); height: 663px;">
+        <div>
+            <div class="container mx-auto px-4 lg:pt-14">
                 <div class="flex flex-col md:flex-row items-center">
                     <div class="w-full md:w-1/2 mb-8 md:mb-0">
-                        <h1 class="text-4xl md:text-5xl font-bold mb-4">FIND CLOTHES<br>THAT MATCHES<br>YOUR STYLE</h1>
-                        <p class="text-gray-300 mb-6">Browse through our diverse range of meticulously crafted garments,
+                        <h1 class="text-4xl md:text-[64px] font-bold mb-6 text-black">FIND CLOTHES<br>THAT MATCHES<br>YOUR STYLE</h1>
+                        <p class="text-[#00000060] text-base mb-6">Browse through our diverse range of meticulously crafted garments,
                             designed to bring out your individuality and cater to your sense of style.</p>
 
-                        <button class="bg-white text-black font-bold py-3 px-8 rounded-full mb-6">Shop Now</button>
+                        <button class="bg-black text-white font-medium py-3 px-12 rounded-full mb-13">Shop Now</button>
 
-                        <div class="flex space-x-8">
-                            <div>
-                                <p class="text-xl font-bold">200+</p>
-                                <p class="text-gray-400 text-sm">International Brands</p>
+                        <div class="flex">
+                            <div class="border-r pr-8">
+                                <p class="text-xl lg:text-[40px] text-black font-bold">200+</p>
+                                <p class="text-[#00000060] text-[15px]">International Brands</p>
                             </div>
-                            <div>
-                                <p class="text-xl font-bold">2,000+</p>
-                                <p class="text-gray-400 text-sm">High-Quality Products</p>
+                            
+                            <div  class="border-r px-8">
+                                <p class="text-xl lg:text-[40px] text-black font-bold">2,000+</p>
+                                <p class="text-[#00000060] text-[15px]">High-Quality Products</p>
                             </div>
-                            <div>
-                                <p class="text-xl font-bold">30,000+</p>
-                                <p class="text-gray-400 text-sm">Happy Customers</p>
+                            <div  class="pl-8">
+                                <p class="text-xl lg:text-[40px] text-black font-bold">30,000+</p>
+                                <p class="text-[#00000060] text-[15px]">Happy Customers</p>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="w-full md:w-1/2 relative">
-                        <img src="https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
-                            alt="Stylish couple" class="w-full rounded-lg">
-                        <!-- Diamond shape decoration -->
-                        <div class="absolute -top-4 -right-4 w-8 h-8 transform rotate-45 bg-white"></div>
-                        <!-- Plus shape decoration -->
-                        <div class="absolute bottom-1/4 -right-4 text-white text-4xl">+</div>
                     </div>
                 </div>
             </div>
